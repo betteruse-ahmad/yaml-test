@@ -12,6 +12,12 @@ spec:
     - name: message      
       value: hello world
       type: date
+    - name: message2
+      value: hello world
+      type: date
+    - name: message3      
+      value: hello world
+      type: date
 
   templates:
   - name: whalesay
