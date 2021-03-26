@@ -12,20 +12,20 @@ spec:
     - name: message      
       value: hello world
       BU_type: 
-        type: string
-        max: 1
-        min: 2
+        type: String
+        max: 5
+        min: 1
     - name: message2
       value: hello world
       BU_type: 
-        type: string
-        max: 1
+        type: Integer
+        max: 5
         min: 2
     - name: message3      
       value: hello world
       BU_type: 
-        type: string
-        max: 1
+        type: String
+        max: 20
         min: 2
 
   templates:
