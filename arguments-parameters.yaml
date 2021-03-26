@@ -9,7 +9,7 @@ spec:
   # $ argo submit examples/arguments-parameters.yaml -p message="goodbye world"
   arguments:
     parameters:
-    - name: message      
+    - name: hejrasmus      
       value: hello world
       BU_type: 
         type: String
@@ -21,7 +21,7 @@ spec:
         type: Integer
         max: 5
         min: 2
-    - name: message3      
+    - name: langbesked      
       value: hello world
       BU_type: 
         type: String
