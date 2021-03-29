@@ -28,14 +28,14 @@ spec:
       BU_type: 
         type: Date
         help: Put a Date here        
-        max: datetime.timedelta(months=6)
+        max: months = 6, days = 12
     - name: DateTime Test      
       value: replaceme
       BU_type: 
         type: DateTime
         help: Put a DateTime here
         max: 20
-        min: 2        
+        min: 2      
     - name: Float Test      
       value: replaceme
       BU_type: 
