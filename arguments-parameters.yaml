@@ -28,7 +28,7 @@ spec:
       BU_type: 
         type: Date
         help: Put a Date here        
-        max: 31-03-2021
+        max: timedelta(months = 6)
     - name: DateTime Test      
       value: replaceme
       BU_type: 
