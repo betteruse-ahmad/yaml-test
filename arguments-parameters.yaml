@@ -9,24 +9,42 @@ spec:
   # $ argo submit examples/arguments-parameters.yaml -p message="goodbye world"
   arguments:
     parameters:
-    - name: hejrasmus      
-      value: hello world
+    - name: String test      
+      value: replaceme
       BU_type: 
         type: String
+        help: Put a String here
         max: 5
         min: 1
-    - name: message2
-      value: hello world
+    - name: integer test
+      value: replaceme
       BU_type: 
         type: Integer
+        help: Put an Integer here        
         max: 5
         min: 2
-    - name: langbesked      
-      value: hello world
+    - name: date test      
+      value: replaceme
       BU_type: 
-        type: String
+        type: Date
+        help: Put a Date here        
         max: 20
         min: 2
+    - name: datetime test      
+      value: replaceme
+      BU_type: 
+        type: DateTime
+        help: Put a DateTime here
+        max: 20
+        min: 2        
+    - name: float test      
+      value: replaceme
+      BU_type: 
+        type: Date
+        helper: put a Float here
+        max: 20
+        min: 2
+
 
   templates:
   - name: whalesay
