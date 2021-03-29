@@ -28,7 +28,7 @@ spec:
       BU_type: 
         type: Date
         help: Put a Date here        
-        max: "{'months':6, 'days':12}"
+        max: '{"months":6, "days":12}'
     - name: DateTime Test      
       value: replaceme
       BU_type: 
