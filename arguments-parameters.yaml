@@ -42,7 +42,7 @@ spec:
       BU_type: 
         type: Float
         helper: put a Float here
-        max: 20
+        max: 19.99
         min: 2
 
 
