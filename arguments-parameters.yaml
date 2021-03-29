@@ -28,8 +28,7 @@ spec:
       BU_type: 
         type: Date
         help: Put a Date here        
-        max: 20
-        min: 2
+        max: 31-03-2021
     - name: DateTime Test      
       value: replaceme
       BU_type: 
