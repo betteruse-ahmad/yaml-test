@@ -39,19 +39,22 @@ spec:
     - name: List String Test
       value: replaceme
       BU_type:
-        BU_item:
+        #definer type eller list???      
+        list: true
+        type: list
+        list_item:
           name: First in list
           type: String
           help: Put a string here
           max: 15
           min: 2
-        BU_item:
+        list_item:
           name: Second in list
           type: String
           help: Put a string here
           max: 10
           min: 1
-        BU_item:
+        list_item:
           name: Third in list
           type: String
           help: Put a string here
