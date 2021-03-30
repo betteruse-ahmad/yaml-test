@@ -36,6 +36,29 @@ spec:
         help: put a Float here
         max: 19.99
         min: 2  
+    - name: List String Test
+      value: replaceme
+      BU_type:
+        BU_item:
+          name: First in list
+          type: String
+          help: Put a string here
+          max: 15
+          min: 2
+        BU_item:
+          name: Second in list
+          type: String
+          help: Put a string here
+          max: 10
+          min: 1
+        BU_item:
+          name: Third in list
+          type: String
+          help: Put a string here
+          max: 5
+          min: 1                    
+
+
 
   templates:
   - name: whalesay
