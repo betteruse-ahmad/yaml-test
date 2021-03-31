@@ -42,24 +42,24 @@ spec:
         #definer type eller list???      
         list: true
         type: list
-          BU_type:
-            name: First in list
-            type: String
-            help: Put a string here
-            max: 15
-            min: 2
-          BU_type:
-            name: Second in list
-            type: String
-            help: Put a string here
-            max: 10
-            min: 1
-          BU_type:
-            name: Third in list
-            type: String
-            help: Put a string here
-            max: 5
-            min: 1                    
+        BU_type:
+          name: First in list
+          type: String
+          help: Put a string here
+          max: 15
+          min: 2
+        BU_type:
+          name: Second in list
+          type: String
+          help: Put a string here
+          max: 10
+          min: 1
+        BU_type:
+          name: Third in list
+          type: String
+          help: Put a string here
+          max: 5
+          min: 1                    
 
 
 
