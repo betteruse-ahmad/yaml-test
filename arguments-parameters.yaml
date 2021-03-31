@@ -42,19 +42,19 @@ spec:
         #definer type eller list???      
         list: true
         type: list
-        list_item:
+        BU_type:
           name: First in list
           type: String
           help: Put a string here
           max: 15
           min: 2
-        list_item:
+        BU_type:
           name: Second in list
           type: String
           help: Put a string here
           max: 10
           min: 1
-        list_item:
+        BU_type:
           name: Third in list
           type: String
           help: Put a string here
