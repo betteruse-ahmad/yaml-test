@@ -9,27 +9,27 @@ spec:
   # $ argo submit examples/arguments-parameters.yaml -p message="goodbye world"
   arguments:
     parameters:
-    - name: String Test      
+    - name: StringTest      
       value: replaceme
       BU_type: 
         type: String
         help: Put a String here
         max: 5
         min: 1
-    - name: Integer Test
+    - name: IntegerTest
       value: replaceme
       BU_type: 
         type: Integer
         help: Put an Integer here        
         max: 5
         min: 2
-    - name: Date Test      
+    - name: DateTest      
       value: replaceme
       BU_type: 
         type: Date
         help: Put a Date here        
         max: '{"weeks":17, "days":12}' 
-    - name: Float Test      
+    - name: FloatTest      
       value: replaceme
       BU_type: 
         type: Float
@@ -67,8 +67,8 @@ spec:
   - name: whalesay
     inputs:
       parameters:
-      - name: message
+      - name: FloatTest
     container:
       image: docker/whalesay:latest
       command: [cowsay]
-      args: ["{{inputs.parameters.message}}"]
+      args: ["{{inputs.parameters.FloatTest}}"]
