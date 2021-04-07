@@ -11,6 +11,7 @@ spec:
     parameters:
     - name: StringTest      
       value: replaceme
+      label: String Field
       BU_type: 
         type: String
         help: Put a String here
@@ -18,6 +19,7 @@ spec:
         min: 1
     - name: IntegerTest
       value: replaceme
+      label: Integer Field
       BU_type: 
         type: Integer
         help: Put an Integer here        
@@ -25,12 +27,14 @@ spec:
         min: 2
     - name: DateTest      
       value: replaceme
+      label: Date Field
       BU_type: 
         type: Date
         help: Put a Date here        
         max: '{"weeks":17, "days":12}' 
     - name: FloatTest      
       value: replaceme
+      label: Float Field
       BU_type: 
         type: Float
         help: put a Float here
