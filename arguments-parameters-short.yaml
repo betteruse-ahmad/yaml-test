@@ -48,8 +48,8 @@ spec:
   - name: whalesay
     inputs:
       parameters:
-      - name: FloatTest
+      - name: StringTest
     container:
       image: docker/whalesay:latest
       command: [cowsay]
-      args: ["{{inputs.parameters.FloatTest}}"]
+      args: ["{{inputs.parameters.StringTest}}"]
