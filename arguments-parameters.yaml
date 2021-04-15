@@ -15,6 +15,7 @@ spec:
       BU_type: 
         type: String
         help: Put a String here
+        preview: E.g. something
         max: 5
         min: 1
     - name: IntegerTest
@@ -22,6 +23,7 @@ spec:
       label: Integer Field
       BU_type: 
         type: Integer
+        preview: E.g. Occurences
         help: Put an Integer here        
         max: 5
         min: 2
@@ -30,6 +32,7 @@ spec:
       label: Date Field
       BU_type: 
         type: Date
+        preview: E.g. order date
         help: Put a Date here        
         max: '{"weeks":17, "days":12}' 
     - name: FloatTest      
@@ -37,6 +40,7 @@ spec:
       label: Float Field
       BU_type: 
         type: Float
+        preview: E.g. Confidence Inteval
         help: put a Float here
         max: 19.99
         min: 2  

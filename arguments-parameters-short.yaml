@@ -11,38 +11,13 @@ spec:
     parameters:
     - name: StringTest      
       value: replaceme
-      label: String Field
+      label: String Field      
       BU_type: 
         type: String
         help: Put a String here
+        preview: Please enter a string
         max: 5
-        min: 1
-#    - name: List String Test
-#      value: replaceme
-#      BU_type:
-#        #definer type eller list???      
-#        list: true
-#        type: list
-#        BU_type:
-#            name: First in list
-#            type: String
-#            help: Put a string here
-#            max: 15
-#            min: 2
-#        BU_type:
-#            name: Second in list
-#            type: String
-#            help: Put a string here
-#            max: 15
-#            min: 2
-#        BU_type:
-#            name: Third in list
-#            type: String
-#            help: Put a string here
-#            max: 15
-#            min: 2            
-
-                 
+        min: 1                 
 
   templates:
   - name: whalesay
